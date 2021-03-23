@@ -1,10 +1,11 @@
 # ros_laboratory
-## Instruction to build everything
 
 ### Requirements
  * Ubuntu 18.04
  * ROS melodic
  * ROS2 dashing
+
+## Instructions to build everything
 
 install catkin module (needed for build of ros melodic things)
 ```
@@ -59,7 +60,7 @@ colcon build --packages-select ros1_bridge --cmake-force-configure --cmake-args 
 > this build will take long (~ 13 minutes on my pc)
 
 
-## RUN things
+## Instructions to run everything
 
 ### Terminal 1
 ```
