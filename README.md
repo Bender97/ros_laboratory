@@ -5,6 +5,29 @@
  * ROS melodic
  * ROS2 dashing
 
+### Instructions to setup CLion (i.e., to work with LeGO-LOAM-SR and ROS2)
+I followed this guide (https://www.jetbrains.com/help/clion/ros-setup-tutorial.html#set-build-paths).
+Fundamental instructions:
+1) source the workspace
+```
+source /opt/ros/dashing/setup.bash
+```
+2) source the particular directory
+```
+source dev_ws2/src/install/setup.bash
+```
+3) open clion
+```
+cd ~/clion-2020.3.3/bin/
+./clion.sh
+```
+4) Click **File | Open** and select the src directory of the workspace *(dev_ws2/src)*
+   then choose **Open as Project**.
+5) In Build directory, set <WORKSPACE_DIRECTORY>/build.
+6) In CMake options, add -DCATKIN_DEVEL_PREFIX:PATH=<WORKSPACE_DIRECTORY>/devel.
+
+
+
 ## Instructions to build everything
 
 install catkin module (needed for build of ros melodic things)
