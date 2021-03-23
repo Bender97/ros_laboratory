@@ -44,6 +44,7 @@ cd dev_ws2
 source /opt/ros/dashing/setup.bash
 catkin build
 ```
+> I obtained some warnings that can be easily ignored
 
 ### Terminal 3
 follow https://industrial-training-master.readthedocs.io/en/melodic/_source/session7/ROS1-ROS2-bridge.html
