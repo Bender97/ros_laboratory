@@ -47,7 +47,7 @@ catkin build
 > I obtained some warnings that can be easily ignored
 
 ### Terminal 3
-following https://industrial-training-master.readthedocs.io/en/melodic/_source/session7/ROS1-ROS2-bridge.html
+following https://industrial-training-master.readthedocs.io/en/melodic/_source/session7/ROS1-ROS2-bridge.html <br>
 these are the fundamental instructions
 ```
 cd ros1_bridge_ws/
