@@ -47,8 +47,8 @@ catkin build
 > I obtained some warnings that can be easily ignored
 
 ### Terminal 3
-following https://industrial-training-master.readthedocs.io/en/melodic/_source/session7/ROS1-ROS2-bridge.html <br>
-these are the fundamental instructions
+Following https://industrial-training-master.readthedocs.io/en/melodic/_source/session7/ROS1-ROS2-bridge.html. <br>
+These are the fundamental instructions:
 ```
 cd ros1_bridge_ws/
 source /opt/ros/melodic/setup.bash
@@ -88,8 +88,8 @@ ros2 run ros1_bridge dynamic_bridge --print-pairs
 ```
 
 ## Instructions to setup CLion (i.e., to work with LeGO-LOAM-SR and ROS2)
-I followed this guide (https://www.jetbrains.com/help/clion/ros-setup-tutorial.html#set-build-paths).
-Fundamental instructions:
+I followed this guide (https://www.jetbrains.com/help/clion/ros-setup-tutorial.html#set-build-paths). <br>
+But fundamental instructions are:
 1) source the workspace
 ```
 source /opt/ros/dashing/setup.bash
