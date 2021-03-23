@@ -107,3 +107,5 @@ cd ~/clion-2020.3.3/bin/
    then choose **Open as Project**.
 5) In Build directory, set <WORKSPACE_DIRECTORY>/build.
 6) In CMake options, add -DCATKIN_DEVEL_PREFIX:PATH=<WORKSPACE_DIRECTORY>/devel.
+
+<img src="img/clion_cmake_options.png"/>
